@@ -12,3 +12,7 @@ FIGMA wirefame for styling of yourNotebook landing page.
 
 >insert of UI mockup using <code>FIGMA</code>
 
+---
+
+>chamges to this project will be completed on local device.
+
