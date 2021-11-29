@@ -19,7 +19,7 @@ FIGMA wirefame for styling of yourNotebook landing page.
 
 >11.29.2021 README.md will be updated with visual changes
 
-##### ©️ TWO LRYdataBuilder
+##### ©️ TWO LRYdataBuilder 🤖
 
 ---
 
