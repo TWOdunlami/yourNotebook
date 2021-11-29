@@ -6,6 +6,10 @@ FIGMA wirefame for styling of yourNotebook landing page.
 
 ---
 
+Digital notebook concept used for professional projects
+
+---
+
 >follow the link to view the wireframe project of yourNotebook on the FIGMA website **[yourNotebook](https://www.figma.com/file/sjeVJUSRqkolQCd6mrtYJP/yourNotebook?node-id=0%3A1)**.
 
 ---
@@ -14,7 +18,7 @@ FIGMA wirefame for styling of yourNotebook landing page.
 
 ---
 
->chamges to this project will be completed on local device.
+>changes to this project will be completed on local device.
 
 ---
 
