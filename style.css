@@ -16,3 +16,15 @@ body {
     margin: 0 8px;
 }
 */
+header {
+    flex-direction: row;
+}
+.landingheader {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.headRight {
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
