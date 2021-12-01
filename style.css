@@ -29,6 +29,71 @@ body {
     border-radius: 4px;
 }
 .landingheader a:hover {
-    background-color: #ddd;
+    background-color: #C1DFE5;
+    color: black;
+}
+.box{
+    box-shadow: 0 8px 16px 0 linen;
+    border-style: solid;
+    border-width: 0.50px;
+    border-color: linen;
+    border-radius: 8px;
+    transition: 0.1s;
+    margin: auto;
+    width: 40%;
+    cursor: pointer;
+}
+.box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+    padding: 2px 16px;
+}
+p{
+    text-align: center;
+    line-height: 3.3;
+    font-size: 24px;
+    font-weight: 800;
+}
+.submission {
+    text-align: center;
+    padding: 2px 16px;
+    display: block;
+}
+#subEmail input {
+    cursor: pointer;
+    margin: 10px;
+    border-color: linen;
+    border-radius: 10px;
+    background-color: #C1DFE5; /* #C1DFE5 */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 250px;
+}
+button {
+    cursor: pointer;
+    padding: 4px 29px;
+    margin: 10px;
+    border-color: linen;
+    border-radius: 10px;
+    background-color: #C1DFE5; /* #C1DFE5 */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 250px;
+}
+button:hover input:hover{
+    background-color: #C1DFE5;
     color: black;
 }
