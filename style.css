@@ -55,6 +55,13 @@ p{
     font-size: 24px;
     font-weight: 400;
 }
+.promoPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .submission {
     text-align: center;
     padding: 2px 16px;
@@ -93,7 +100,11 @@ button {
     margin: 4px 2px;
     width: 250px;
 }
-button:hover input:hover{
+#subEmail:hover {
+    background-color: #C1DFE5;
+    color: black;
+}
+#subButton:hover {
     background-color: #C1DFE5;
     color: black;
 }
