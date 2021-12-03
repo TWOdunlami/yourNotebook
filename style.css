@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
 body {
     margin: 0;
+    font-family: 'Newsreader', serif;
 }
 .landingheader {
     overflow: hidden;
@@ -99,6 +101,9 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     max-width: 250px;
+}
+::placeholder {
+    color: black;
 }
 #subEmail:hover {
     background-color: #C1DFE5;
