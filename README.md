@@ -20,11 +20,8 @@ FIGMA wirefame for styling of yourNotebook landing page.
 >11.29.2021 README.md will be updated with visual changes
 
 >12.02.2021 Progress snapshot. 
-<img src="https://drive.google.com/file/d/1vm1Y3ZGEL2s7ADKN2ItFy73k3Rt9Szyh/view?usp=sharing"/>
+![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12022021.png)
 
 ##### ©️ TWO LRYdataBuilder 🤖
 
 ---
-
-
-
