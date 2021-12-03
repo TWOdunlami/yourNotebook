@@ -113,3 +113,20 @@ button {
     background-color: #C1DFE5;
     color: black;
 }
+.details-icon {
+    max-width: 170px;
+    max-height: 170px;
+    margin-left: 15px;
+    margin-right: 1px;
+    float: left;
+}
+.text {
+    padding: 25px;
+    font-weight: 580;
+    text-align: left;
+    font-size: 13px;
+    max-width: 60%;
+    padding: 10px;
+    padding-left: 10%;
+    margin-left: 90px;
+}
