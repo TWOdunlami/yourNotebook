@@ -1,6 +1,6 @@
 # yourNotebook
 
-FIGMA wirefame for styling of yourNotebook landing page.
+[]FIGMA wirefame for styling of yourNotebook landing page.
 >inspired by FreeCodeCamp.org landing page project titled 'yourNotebook'
 
 
