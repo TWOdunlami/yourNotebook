@@ -119,6 +119,9 @@ button {
     margin-left: 15px;
     margin-right: 1px;
     float: left;
+    border: 3px solid linen;
+    box-shadow: 5px 10px 20px black;
+    border-radius: 6px;
 }
 .text {
     padding: 25px;
