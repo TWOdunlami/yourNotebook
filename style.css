@@ -50,6 +50,8 @@ body {
 }
 .container {
     padding: 2px 16px;
+    text-align: center;
+    line-height: 3.3;
 }
 div.details-box{
     text-align: center;
@@ -93,6 +95,7 @@ p{
     font-size: 16px;
     margin: 4px 2px;
     max-width: 250px;
+    box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
 }
 button {
     cursor: pointer;
@@ -110,6 +113,7 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     max-width: 250px;
+    box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
 }
 ::placeholder {
     color: black;
@@ -169,4 +173,13 @@ hr.divider {
     border: 8px solid linen;
     max-width: 80%;
     border-radius: 13px;
+}
+.pricing-box{
+    float: left;
+    border: 2px solid linen;
+    width: 20%;
+    padding: 0 20px;
+    border-radius: 18px;
+    text-align: center;
+    line-height: 2.0;
 }
