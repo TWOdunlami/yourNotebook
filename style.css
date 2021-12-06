@@ -183,6 +183,7 @@ hr.divider {
     display: flex;
     justify-content: center;
     padding: 0 10px;
+    margin-bottom: 70px;
     border-radius: 18px;
     text-align: center;
     line-height: 3.0;
@@ -198,4 +199,15 @@ hr.divider {
 }
 .pricing-text b {
     font-size: 22px;
+}
+.footer {
+    margin: auto;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: linen;
+    border-radius: 10px;
+    text-align: right;
 }
