@@ -144,16 +144,29 @@ button {
 }
 div.quality-section {
     float: left;
+    justify-content: center;
     margin: 16px;
-    padding: 2px;
-    width: 18em;
+    padding: 0 2px;
+    width: 16em;
     border:1px solid linen;
+    border-radius: 38px;
     box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
+}
+.quality-section:hover {
+    background-color: linen;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .qualityPic {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 32px;
     box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen;
+}
+hr.divider {
+    border: 8px solid linen;
+    max-width: 80%;
+    border-radius: 13px;
 }
