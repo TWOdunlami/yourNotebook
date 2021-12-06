@@ -145,6 +145,7 @@ button {
     padding: 10px;
     padding-left: 10%;
     margin-left: 90px;
+    text-transform: capitalize;
 }
 div.quality-section {
     float: left;
@@ -174,12 +175,20 @@ hr.divider {
     max-width: 80%;
     border-radius: 13px;
 }
-.pricing-box{
+.pricing-box {
     float: left;
     border: 2px solid linen;
     width: 20%;
-    padding: 0 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
     border-radius: 18px;
     text-align: center;
-    line-height: 2.0;
+    line-height: 3.0;
+}
+.pricing-text h2 {
+    text-transform: uppercase;
+    border: 8px solid linen;
+    border-radius: 10px;
 }
