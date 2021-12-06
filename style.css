@@ -141,7 +141,9 @@ button {
     padding: 10px;
     padding-left: 10%;
     margin-left: 90px;
-}div.price-section {
+}
+div.price-section {
+    float: left;
     margin: 40px;
     padding: 20px;
     width: 18em;
