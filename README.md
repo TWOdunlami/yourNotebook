@@ -24,6 +24,6 @@
 4. - [ ] VISUAL SNAPSHOT <mark>12.06.2021,[^4] snapshot.</mark> 
 [^4]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12062021.png)
 5. - [ ] VISUAL SNAPSHOT <mark>12.06.2021,[^5] snapshot.</mark> 
-[^4]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12062021-2.png)
+[^5]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12062021-2.png)
 ---
 ##### ©️ TWO LRYdataBuilder 🤖
