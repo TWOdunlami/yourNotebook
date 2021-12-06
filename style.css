@@ -51,12 +51,21 @@ body {
 .container {
     padding: 2px 16px;
 }
+div.details-box{
+    text-align: center;
+    line-height: 3.3;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+}
+/*
 p{
     text-align: center;
     line-height: 3.3;
     font-size: 24px;
     font-weight: 400;
-}
+    color: black;
+}*/
 .promoPic{
     display: block;
     margin-left: auto;
@@ -132,7 +141,7 @@ button {
     padding: 10px;
     padding-left: 10%;
     margin-left: 90px;
-}div.price-section{
+}div.price-section {
     margin: 40px;
     padding: 20px;
     width: 18em;
