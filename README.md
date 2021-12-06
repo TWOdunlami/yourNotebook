@@ -19,6 +19,8 @@
 2. [x] ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12012021.png)
 1. [] <mark>VISUAL SNAPSHOT 12.02.2021 snapshot.</mark> 
 2. [x] ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12022021.png)
+1. [] <mark>VISUAL SNAPSHOT 12.05.2021 snapshot.</mark> 
+2. [x] ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12052021.png)
 
 ---
 ##### ©️ TWO LRYdataBuilder 🤖
