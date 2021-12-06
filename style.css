@@ -8,7 +8,7 @@ body {
     background-color: linen;
     padding: 32px 10px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 .iconLogo {
     float: left;
@@ -60,15 +60,7 @@ div.details-box{
     font-weight: 400;
     color: black;
 }
-/*
-p{
-    text-align: center;
-    line-height: 3.3;
-    font-size: 24px;
-    font-weight: 400;
-    color: black;
-}*/
-.promoPic{
+.promoPic{                  /*photo centered. picture of laser is an open source photo from website www.pixabay.com */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -80,7 +72,7 @@ p{
     padding: 2px 16px;
     display: block;
 }
-#subEmail input {
+#subEmail input {         /* email input and 'get started' button styling */
     cursor: pointer;
     margin: 10px;
     border-color: linen;
@@ -97,7 +89,7 @@ p{
     max-width: 250px;
     box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
 }
-button {
+button {                  /* email input and 'get started' button styling */
     cursor: pointer;
     padding: 4px 29px;
     margin: 10px;
@@ -116,7 +108,7 @@ button {
     box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
 }
 ::placeholder {
-    color: black;
+    color: green;
 }
 #subEmail:hover {
     background-color: #C1DFE5;
@@ -126,7 +118,7 @@ button {
     background-color: #C1DFE5;
     color: black;
 }
-.details-icon {
+.details-icon {          /* icons to showcase quality of service completion. retrieved from open source website www.pixabay.com */
     max-width: 170px;
     max-height: 170px;
     margin-left: 15px;
@@ -136,7 +128,7 @@ button {
     box-shadow: 5px 10px 20px black;
     border-radius: 6px;
 }
-.text {
+.text {                 /* icon description text, with custom lorem ipsum. */
     padding: 25px;
     font-weight: 580;
     text-align: left;
@@ -157,11 +149,11 @@ div.quality-section {
     border-radius: 38px;
     box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
 }
-.quality-section:hover {
+.quality-section:hover {    /* hoverable sample images from open-source website www.pixabay.com */
     background-color: linen;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-.qualityPic {
+.qualityPic {   /* open source photos styled in this section are from www.pixabay.com */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -170,12 +162,12 @@ div.quality-section {
     border-radius: 32px;
     box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen;
 }
-hr.divider {
+hr.divider {            /* horizontal line. centered without a listed property */
     border: 8px solid linen;
     max-width: 80%;
     border-radius: 13px;
 }
-.pricing-box {
+.pricing-box {          /*  pricing table  add properties to visually center items */
     float: left;
     border: 2px solid linen;
     width: 20%;
@@ -188,7 +180,7 @@ hr.divider {
     text-align: center;
     line-height: 3.0;
 }
-.pricing-text h2 {
+.pricing-text h2 {   /* Custom lorem ipsum text. Final Pricing tier styling. */
     text-transform: uppercase;
     border: 2px solid linen;
     border-radius: 10px;
@@ -200,7 +192,7 @@ hr.divider {
 .pricing-text b {
     font-size: 22px;
 }
-.footer {
+.footer {           /* final sticky footer. */
     margin: auto;
     justify-content: center;
     position: fixed;
@@ -208,6 +200,6 @@ hr.divider {
     bottom: 0;
     width: 100%;
     background-color: linen;
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: right;
 }
