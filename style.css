@@ -142,11 +142,18 @@ button {
     padding-left: 10%;
     margin-left: 90px;
 }
-div.price-section {
+div.quality-section {
     float: left;
     margin: 16px;
-    padding: 20px;
+    padding: 2px;
     width: 18em;
-    border:1px solid black;
-    word-wrap: break-word;
+    border:1px solid linen;
+    box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
+}
+.qualityPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen;
 }
