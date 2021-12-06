@@ -17,11 +17,11 @@
 
 1. - [ ] VISUAL SNAPSHOT <mark>12.01.2021,[^1] snapshot.</mark> 
 [^1]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12012021.png)
-1. - [ ] VISUAL SNAPSHOT <mark>12.02.2021,[^2] snapshot.</mark> 
+2. - [ ] VISUAL SNAPSHOT <mark>12.02.2021,[^2] snapshot.</mark> 
 [^2]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12022021.png)
-1. - [ ] VISUAL SNAPSHOT <mark>12.05.2021,[^3] snapshot.</mark> 
+3. - [ ] VISUAL SNAPSHOT <mark>12.05.2021,[^3] snapshot.</mark> 
 [^3]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12052021.png)
-1. - [ ] VISUAL SNAPSHOT <mark>12.06.2021,[^4] snapshot.</mark> 
+4. - [ ] VISUAL SNAPSHOT <mark>12.06.2021,[^4] snapshot.</mark> 
 [^4]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12062021.png)
 ---
 ##### ©️ TWO LRYdataBuilder 🤖
