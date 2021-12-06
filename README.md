@@ -1,14 +1,14 @@
 # yourNotebook
 
-[]FIGMA wirefame for styling of yourNotebook landing page.
+- [ ] FIGMA wirefame for styling of yourNotebook landing page.
 >inspired by FreeCodeCamp.org landing page project titled 'yourNotebook'
 
 
 # UI image link below
 
-[.] yourNotebook will serve as my personal Digital notebook for project development.
-[.] all changes to this project will be completed on local device.
-[.] 'localdev' branch will be the default working environment. 
+- [ ] yourNotebook will serve as my personal Digital notebook for project development.
+- [ ] all changes to this project will be completed on local device.
+- [ ] 'localdev' branch will be the default working environment. 
 
 ---
 
