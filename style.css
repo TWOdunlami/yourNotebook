@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
-body {
+@media only screen and (max-width: 600px) { body {
     margin: 0;
     font-family: 'Newsreader', serif;
+}
 }
 .landingheader {
     overflow: hidden;
