@@ -132,4 +132,10 @@ button {
     padding: 10px;
     padding-left: 10%;
     margin-left: 90px;
+}div.price-section{
+    margin: 40px;
+    padding: 20px;
+    width: 18em;
+    border:1px solid black;
+    word-wrap: break-word;
 }
