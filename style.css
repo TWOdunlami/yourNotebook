@@ -179,7 +179,7 @@ hr.divider {
     float: left;
     border: 2px solid linen;
     width: 20%;
-    margin: 20px;
+    margin: 18px;
     display: flex;
     justify-content: center;
     padding: 0 10px;
@@ -189,6 +189,13 @@ hr.divider {
 }
 .pricing-text h2 {
     text-transform: uppercase;
-    border: 8px solid linen;
+    border: 2px solid linen;
     border-radius: 10px;
+    text-decoration: underline overline solid linen;
+    font-size: 26px;
+    background-color: #C1DFE5;
+    box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
+}
+.pricing-text b {
+    font-size: 22px;
 }
