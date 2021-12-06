@@ -15,13 +15,13 @@
 >yourNotebook landing page UI wireframe using <code>FIGMA</code>
 >follow the link to view the wireframe project of yourNotebook on the FIGMA website **[yourNotebook](https://www.figma.com/file/sjeVJUSRqkolQCd6mrtYJP/yourNotebook?node-id=0%3A1)**.
 
-- <mark>VISUAL SNAPSHOT 12.01.2021 snapshot.</mark> 
-[x] ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12012021.png)
-- <mark>VISUAL SNAPSHOT 12.02.2021 snapshot.</mark> 
-[x] ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12022021.png)
-- <mark>VISUAL SNAPSHOT 12.05.2021 snapshot.</mark> 
-[x] ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12052021.png)
-- <mark>VISUAL SNAPSHOT 12.06.2021 snapshot.</mark> 
-[x] ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12062021.png)
+- [ ] <mark>VISUAL SNAPSHOT 12.01.2021 snapshot.</mark> 
+[^1] ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12012021.png)
+- [ ] <mark>VISUAL SNAPSHOT 12.02.2021 snapshot.</mark> 
+[^1] ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12022021.png)
+- [ ] <mark>VISUAL SNAPSHOT 12.05.2021 snapshot.</mark> 
+[^1] ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12052021.png)
+- [ ] <mark>VISUAL SNAPSHOT 12.06.2021 snapshot.</mark> 
+[^1] ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/localdev/images/snapshot12062021.png)
 ---
 ##### ©️ TWO LRYdataBuilder 🤖
