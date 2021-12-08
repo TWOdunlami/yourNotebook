@@ -176,6 +176,7 @@ hr.divider {            /* horizontal line. centered without a listed property *
     width: 20%;
     margin: auto;
     display: flex;
+    
     position: relative;
     padding: 0 10px;
     margin-bottom: 70px;
@@ -188,7 +189,7 @@ hr.divider {            /* horizontal line. centered without a listed property *
     border: 2px solid linen;
     border-radius: 10px;
     text-decoration: underline overline solid linen;
-    font-size: 26px;
+    font-size: 20px;
     background-color: #C1DFE5;
     box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
 }
