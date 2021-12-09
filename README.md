@@ -8,6 +8,7 @@
 > 
 > - [ ] yourNotebook will serve as my personal Digital notebook for project development.
 > - [ ] all changes to this project will be completed on local device.
+> - [ ] branch 'miniPROD' will be used to implement any and all changes.
 > - [ ] 'localdev' branch will be the default working environment. 
 
 ---
