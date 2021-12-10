@@ -192,6 +192,8 @@ hr.divider {            /* horizontal line. centered without a listed property *
     text-transform: uppercase;
     border: 2px solid linen;
     border-radius: 10px;
+    max-width: 150px;
+    margin: auto;
     text-decoration: underline overline solid linen;
     font-size: 20px;
     background-color: #C1DFE5;
