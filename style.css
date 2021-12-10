@@ -204,7 +204,6 @@ hr.divider {            /* horizontal line. centered without a listed property *
 }
 .footer {           /* final sticky footer. */
     margin: auto;
-    justify-content: center;
     padding: 0 2px;
     margin-right: 44px;
     position: fixed;
@@ -213,4 +212,8 @@ hr.divider {            /* horizontal line. centered without a listed property *
     width: 100%;
     background-color: linen;
     border-radius: 30px;
+}
+.footer p {
+    float: right;
+    margin-right: 18px;
 }
