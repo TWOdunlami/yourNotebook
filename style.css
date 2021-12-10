@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
+/* @import "message"; */
 @media only screen and (max-width: 600px) { body {
     margin: 0;
     font-family: 'Newsreader', serif;
@@ -210,6 +211,4 @@ hr.divider {            /* horizontal line. centered without a listed property *
     width: 100%;
     background-color: linen;
     border-radius: 30px;
-    text-align: right;
-    white-space: initial;
 }
