@@ -1,4 +1,4 @@
-# yourNotebook
+# yourNotebook Landing Page
 
 - [ ] FIGMA wirefame for styling of yourNotebook landing page.
 >inspired by FreeCodeCamp.org landing page project titled 'yourNotebook'.
@@ -6,7 +6,7 @@
 >👩🏽‍💻Deployment date 12.11.2021
 
 
-> # UI image link below
+> # yourNotebook current objective
 > 
 > - [ ] yourNotebook will serve as my personal Digital notebook for project development.
 > - [ ] all changes to this project will be completed on local device.
@@ -17,6 +17,9 @@
 
 >yourNotebook landing page UI wireframe using <code>FIGMA</code>
 >follow the link to view the wireframe project of yourNotebook on the FIGMA website **[yourNotebook](https://www.figma.com/file/sjeVJUSRqkolQCd6mrtYJP/yourNotebook?node-id=0%3A1)**.
+>
+---
+> # UI image link below
 
 1. - [ ] VISUAL SNAPSHOT <mark>12.01.2021,[^1] snapshot.</mark> 
 [^1]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/miniPROD/images/snapshot12012021.png)
