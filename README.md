@@ -2,6 +2,7 @@
 
 - [ ] FIGMA wirefame for styling of yourNotebook landing page.
 >inspired by FreeCodeCamp.org landing page project titled 'yourNotebook'
+>👩🏽‍💻Deployment date 12.11.2021
 
 
 > # UI image link below
