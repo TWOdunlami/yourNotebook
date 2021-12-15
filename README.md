@@ -34,6 +34,6 @@ Follow the link to view the wireframe project of yourNotebook on the FIGMA websi
 6. - [ ] VISUAL SNAPSHOT <mark>12.10.2021,[^6] snapshot.</mark> 
 [^6]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/miniPROD/images/snapshot12102021.png)
 7. - [ ] VISUAL SNAPSHOT <mark>12.15.2021,[^7] snapshot.</mark> 
-[^7]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/miniPROD/images/snapshot1215021.png)
+[^7]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/miniPROD/images/snapshot12152021.png)
 ---
 ##### ©️ TWO 👩🏽‍💻
