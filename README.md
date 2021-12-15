@@ -1,23 +1,25 @@
 # yourNotebook Landing Page
 
->Inspired by FreeCodeCamp.com landing page project titled 'yourNotebook'.
->
->👩🏽‍💻Deployment date 12.11.2021
+Inspired by FreeCodeCamp.com landing page project titled 'yourNotebook'.
+
+👩🏽‍💻Deployment date 12.11.2021
 
 
-> # yourNotebook current objective
-> 
-> - [ ] yourNotebook will serve as my personal Digital notebook for project development.
-> - [ ] all changes to this project will be completed on local device.
-> - [ ] branch 'miniPROD' will be used to implement any and all changes.
+ # yourNotebook current objective
+ 
+ - [ ] yourNotebook will serve as my personal Digital notebook for project development.
+ - [ ] all changes to this project will be completed on local device.
+ - [ ] branch 'miniPROD' will be used to implement any and all changes.
 
 ---
 
->yourNotebook landing page UI wireframe using <code>FIGMA</code>
->follow the link to view the wireframe project of yourNotebook on the FIGMA website **[yourNotebook](https://www.figma.com/file/sjeVJUSRqkolQCd6mrtYJP/yourNotebook?node-id=0%3A1)**.
->
+yourNotebook landing page UI wireframe using <code>FIGMA</code>
+
+Follow the link to view the wireframe project of yourNotebook on the FIGMA website **[yourNotebook](https://www.figma.com/file/sjeVJUSRqkolQCd6mrtYJP/yourNotebook?node-id=0%3A1)**.
+
 ---
-> ## Timeline of UI progression are below 
+
+ ## Timeline of UI progression are below 
 
 1. - [ ] VISUAL SNAPSHOT <mark>12.01.2021,[^1] snapshot.</mark> 
 [^1]: ![yourNotebook](https://github.com/TWOdunlami/yourNotebook/blob/miniPROD/images/snapshot12012021.png)
