@@ -149,7 +149,6 @@ div.quality-section {
     margin-bottom: 30px;
     margin-top: 30px;
     padding: 0 20px;
-    padding-bottom: 20px;
     width: 16em;
     border:1px solid linen;
     border-radius: 38px;
@@ -170,8 +169,8 @@ div.quality-section {
 }
 hr.divider {            /* horizontal line. centered without a listed property */
     border: 8px solid linen;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-top: 90px;
+    margin-bottom: 50px;
     max-width: 80%;
     border-radius: 13px;
 }
