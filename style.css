@@ -175,10 +175,10 @@ hr.divider {            /* horizontal line. centered without a listed property *
     border: 2px solid linen;
     width: 20%;
     margin: auto;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 75px;
+    margin-right: 75px;
     align-items: center;
-    display: flex;
+    flex-direction: row;
     float: right;
     position: relative;
     padding: 0 10px;
@@ -208,5 +208,7 @@ hr.divider {            /* horizontal line. centered without a listed property *
     width: 100%;
     background-color: linen;
     border-radius: 30px;
-    text-align: right;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
 }
