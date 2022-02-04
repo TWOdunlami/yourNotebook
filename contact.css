@@ -9,17 +9,18 @@ h1 {
     font-weight: 100;
     text-align: center;
     justify-content: center;
-    border: 1px solid lightgrey;
     box-sizing: content-box;
     padding-bottom: 30px;
     padding-top: 30px;
+    background-color: var(--card-color);
+    border-radius: 14px;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: plum;
+    background-color: var(--card-color);
     border-radius: 40px;
   }
   
@@ -29,7 +30,7 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: var(--txtOR-hilght);
     text-align: center;
     padding: 16px 18px;
     text-decoration: none;
@@ -37,5 +38,5 @@ ul {
   
   li a:hover {
     background-color: white;
-    color: plum;
+    color: var(--txtOR-hilght);
   }
