@@ -4,8 +4,33 @@ h1 {
     font-weight: 100;
     text-align: center;
     justify-content: center;
-    border: 10px solid red;
+    border: 1px solid lightgrey;
     box-sizing: content-box;
     padding-bottom: 30px;
     padding-top: 30px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: plum;
+    border-radius: 40px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: white;
+    color: plum;
+  }
