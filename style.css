@@ -1,3 +1,6 @@
+:root {
+--button-color: #C1DFE5;
+}
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
 @media only screen and (max-width: 600px) { body {
     margin: 0;
@@ -32,7 +35,7 @@
     border-radius: 4px;
 }
 .landingheader a:hover {
-    background-color: #C1DFE5;
+    background-color: var(--button-color);
     color: black;
 }
 .box {
@@ -78,7 +81,7 @@ div.details-box{
     margin: 10px;
     border-color: linen;
     border-radius: 10px;
-    background-color: #C1DFE5; /* #C1DFE5 */
+    background-color: var(--button-color); /* #C1DFE5 */
     border: none;
     color: black;
     padding: 15px 32px;
@@ -96,7 +99,7 @@ button {                  /* email input and 'get started' button styling */
     margin: 10px;
     border-color: linen;
     border-radius: 10px;
-    background-color: #C1DFE5; /* #C1DFE5 */
+    background-color: var(--button-color); /* #C1DFE5 */
     border: none;
     color: black;
     padding: 15px 32px;
@@ -112,11 +115,11 @@ button {                  /* email input and 'get started' button styling */
     color: green;
 }
 #subEmail:hover {
-    background-color: #C1DFE5;
+    background-color: var(--button-color);
     color: black;
 }
 #subButton:hover {
-    background-color: #C1DFE5;
+    background-color: var(--button-color);
     color: black;
 }
 .details-icon {          /* icons to showcase quality of service completion. retrieved from open source website www.pixabay.com */
@@ -193,7 +196,7 @@ hr.divider {            /* horizontal line. centered without a listed property *
     border-radius: 10px;
     text-decoration: underline overline solid linen;
     font-size: 20px;
-    background-color: #C1DFE5;
+    background-color: var(--button-color);
     box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
 }
 .pricing-text b {
