@@ -12,7 +12,6 @@ h1 {
     box-sizing: content-box;
     padding-bottom: 30px;
     padding-top: 30px;
-    background-color: var(--card-color);
     border-radius: 14px;
 }
 ul {
@@ -39,4 +38,6 @@ ul {
   li a:hover {
     background-color: white;
     color: var(--txtOR-hilght);
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
   }
