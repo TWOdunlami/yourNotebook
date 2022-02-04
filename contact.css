@@ -1,3 +1,8 @@
+:root {
+    --button-color: #C1DFE5;
+    --card-color: linen;
+    --txtOR-hilght: black;
+    }
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
 h1 {
     font-family: 'Newsreader', serif;
