@@ -10,8 +10,7 @@
 .flexCard {
     margin: auto;
     box-shadow: 20px 20px 50px 10px var(--button-color) inset, 20px 20px 50px 10px var(--button-color);
-    border-radius: 40px;
-    width: 50%;
+    width: 30%;
 }
 h1 {
     font-family: 'Newsreader', serif;
@@ -48,6 +47,21 @@ ul {
   li a:hover {
     background-color: white;
     color: var(--txtOR-hilght);
-    border-bottom-right-radius: 40px;
-    border-top-right-radius: 40px;
+    border-radius: 40px 40px 40px 40px;
+  }
+  .formBox {
+      display: flex;
+      line-height: 2.3;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--card-color);
+  }
+  .userDemo {
+      background-color: var(--card-color);
+  }
+  input[type="text"], input[type="number"], textarea {
+      border: 1px solid var(--button-color);
+      background-color: var(--card-color);
+      border-radius: 5px 5px 5px 5px;
   }
