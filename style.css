@@ -1,5 +1,7 @@
 :root {
 --button-color: #C1DFE5;
+--card-color: linen;
+--txtOR-hilght: black;
 }
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
 @media only screen and (max-width: 600px) { body {
@@ -9,14 +11,14 @@
 }
 .landingheader {
     overflow: hidden;
-    background-color: linen;
+    background-color: var(--card-color);
     padding: 32px 10px;
     margin: 10px;
     border-radius: 30px;
 }
 .iconLogo {
     float: left;
-    color: black;
+    color: var(--txtOR-hilght);
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -26,7 +28,7 @@
 }
 .headRight a {
     float: right;
-    color: black;
+    color: var(--txtOR-hilght);
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -36,13 +38,13 @@
 }
 .landingheader a:hover {
     background-color: var(--button-color);
-    color: black;
+    color: var(--txtOR-hilght);
 }
 .box {
-    box-shadow: 0 8px 16px 0 linen;
+    box-shadow: 0 8px 16px 0 var(--card-color);
     border-style: solid;
     border-width: 0.50px;
-    border-color: linen;
+    border-color: var(--card-color);
     border-radius: 8px;
     transition: 0.1s;
     margin: auto;
@@ -62,7 +64,7 @@ div.details-box{
     line-height: 3.3;
     font-size: 24px;
     font-weight: 400;
-    color: black;
+    color: var(--txtOR-hilght);
 }
 .promoPic{                  /*photo centered. picture of laser is an open source photo from website www.pixabay.com */
     display: block;
@@ -79,11 +81,11 @@ div.details-box{
 #subEmail input {         /* email input and 'get started' button styling */
     cursor: pointer;
     margin: 10px;
-    border-color: linen;
+    border-color: var(--card-color);
     border-radius: 10px;
     background-color: var(--button-color); /* #C1DFE5 */
     border: none;
-    color: black;
+    color: var(--txtOR-hilght);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -91,17 +93,17 @@ div.details-box{
     font-size: 16px;
     margin: 4px 2px;
     max-width: 100px;
-    box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
+    box-shadow: 0 4px 8px 0 var(--card-color), 0 6px 20px 0 var(--card-color) inset;
 }
 button {                  /* email input and 'get started' button styling */
     cursor: pointer;
     padding: 4px 29px;
     margin: 10px;
-    border-color: linen;
+    border-color: var(--card-color);
     border-radius: 10px;
     background-color: var(--button-color); /* #C1DFE5 */
     border: none;
-    color: black;
+    color: var(--txtOR-hilght);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -109,18 +111,18 @@ button {                  /* email input and 'get started' button styling */
     font-size: 16px;
     margin: 4px 2px;
     max-width: 250px;
-    box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
+    box-shadow: 0 4px 8px 0 var(--card-color), 0 6px 20px 0 var(--card-color) inset;
 }
 ::placeholder {
     color: green;
 }
 #subEmail:hover {
     background-color: var(--button-color);
-    color: black;
+    color: var(--txtOR-hilght);
 }
 #subButton:hover {
     background-color: var(--button-color);
-    color: black;
+    color: var(--txtOR-hilght);
 }
 .details-icon {          /* icons to showcase quality of service completion. retrieved from open source website www.pixabay.com */
     max-width: 170px;
@@ -128,8 +130,8 @@ button {                  /* email input and 'get started' button styling */
     margin-left: 15px;
     margin-right: 30px;
     float: left;
-    border: 3px solid linen;
-    box-shadow: 5px 10px 20px black;
+    border: 3px solid var(--card-color);
+    box-shadow: 5px 10px 20px var(--txtOR-hilght);
     border-radius: 6px;
 }
 .text {                 /* icon description text, with custom lorem ipsum. */
@@ -152,12 +154,12 @@ div.quality-section {
     margin-top: 30px;
     padding: 0 20px;
     width: 16em;
-    border:1px solid linen;
+    border:1px solid var(--card-color);
     border-radius: 38px;
-    box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
+    box-shadow: 0 4px 8px 0 var(--card-color), 0 6px 20px 0 var(--card-color) inset;
 }
 .quality-section:hover {    /* hoverable sample images from open-source website www.pixabay.com */
-    background-color: linen;
+    background-color: var(--card-color);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .qualityPic {   /* open source photos styled in this section are from www.pixabay.com */
@@ -167,15 +169,15 @@ div.quality-section {
     max-width: 180px;
     max-height: 180px;
     border-radius: 32px;
-    box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen;
+    box-shadow: 0 4px 8px 0 var(--card-color), 0 6px 20px 0 var(--card-color);
 }
 hr.divider {            /* horizontal line. centered without a listed property */
-    border: 8px solid linen;
+    border: 8px solid var(--card-color);
     max-width: 80%;
     border-radius: 13px;
 }
 .pricing-box {          /*  pricing table  add properties to visually center items */
-    border: 2px solid linen;
+    border: 2px solid var(--card-color);
     width: 20%;
     margin: auto;
     margin-left: 75px;
@@ -192,12 +194,12 @@ hr.divider {            /* horizontal line. centered without a listed property *
 }
 .pricing-text h2 {   /* Custom lorem ipsum text. Final Pricing tier styling. */
     text-transform: uppercase;
-    border: 2px solid linen;
+    border: 2px solid var(--card-color);
     border-radius: 10px;
-    text-decoration: underline overline solid linen;
+    text-decoration: underline overline solid var(--card-color);
     font-size: 20px;
     background-color: var(--button-color);
-    box-shadow: 0 4px 8px 0 linen, 0 6px 20px 0 linen inset;
+    box-shadow: 0 4px 8px 0 var(--card-color), 0 6px 20px 0 var(--card-color) inset;
 }
 .pricing-text b {
     font-size: 22px;
@@ -209,7 +211,7 @@ hr.divider {            /* horizontal line. centered without a listed property *
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: linen;
+    background-color: var(--card-color);
     border-radius: 30px;
     text-align: center;
     font-family: 'Newsreader', serif;
