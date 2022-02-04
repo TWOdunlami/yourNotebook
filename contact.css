@@ -4,6 +4,15 @@
     --txtOR-hilght: black;
     }
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
+* {
+    background-color: var(--card-color);
+}
+.flexCard {
+    margin: auto;
+    box-shadow: 20px 20px 50px 10px var(--button-color) inset, 20px 20px 50px 10px var(--button-color);
+    border-radius: 40px;
+    width: 50%;
+}
 h1 {
     font-family: 'Newsreader', serif;
     font-weight: 100;
@@ -13,6 +22,7 @@ h1 {
     padding-bottom: 30px;
     padding-top: 30px;
     border-radius: 14px;
+    background-color: 20px 20px 50px 10px var(--button-color) inset;
 }
 ul {
     list-style-type: none;
