@@ -78,7 +78,8 @@ div.details-box{
     padding: 2px 16px;
     display: block;
 }
-#subEmail input {         /* email input and 'get started' button styling */
+#subEmail input {    
+    display: none;     /* email input and 'get started' button styling. email class will not feature an email at final deployment(merchant payemtn attached) */
     cursor: pointer;
     margin: 10px;
     border-color: var(--card-color);
