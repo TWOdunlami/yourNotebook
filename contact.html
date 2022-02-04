@@ -14,13 +14,14 @@
     <div class="flexCard">
     <h1>Contact Form</h1>
     <br>
-    <form>
+    <form action="POST" method="POST">
         <div class="formBox">
-        <label class="userDemo">Name<input type="text"></label>
+        <label class="userDemo">Name<input type="text" required></label>
         <label class="userDemo">Zipcode<input type="number"></label>
         <label class="userDemo">Subject<input type="text"></label>
-        <label class="userDemo">Message<textarea aria-placeholder="Please provide model number or service type" placeholder="Please provide model number or service type" style="height:111px;"></textarea></label>
-        </div>
+        <label class="userDemo">Message<textarea aria-placeholder="Please provide model number or service type" placeholder="For fast service, Please provide model number and service type..." required style="height:111px;"></textarea></label>
+        <button>submit</button>    
+    </div>
     </form>
     </div>
     <!-- script file for contact us form -->
