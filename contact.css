@@ -9,8 +9,10 @@
 }
 .flexCard {
     margin: auto;
+    background-color: var(--button-color);
     box-shadow: 20px 20px 50px 10px var(--button-color) inset, 20px 20px 50px 10px var(--button-color);
     width: 30%;
+    border-radius: 5px 5px 5px 5px;
 }
 h1 {
     font-family: 'Newsreader', serif;
@@ -55,10 +57,14 @@ ul {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: var(--card-color);
+      box-shadow: 20px 20px 50px 10px var(--button-color) inset;
+      border-radius: 5px 5px 5px 5px;
+      background-color: var(--button-color);
   }
   .userDemo {
-      background-color: var(--card-color);
+      border: 0px solid var(--button-color);
+      box-shadow: 20px 20px 50px 10px var(--button-color) inset;
+      border-radius: 5px 5px 5px 5px;
   }
   input[type="text"], input[type="number"], textarea {
       border: 1px solid var(--button-color);
