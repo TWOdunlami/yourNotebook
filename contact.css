@@ -89,7 +89,7 @@ ul {
 /*      justify-content: space-between;       */
       border: 2px solid blue;
   }
-  img {
+  .liveInv {
       border: 3px solid green;
       object-fit: fill;
       width: 48px;
@@ -117,6 +117,9 @@ ul {
     margin-top: 190px;
     margin-bottom: 100px;
     border: 2px solid blue;
+  }
+  p {
+      text-align: center;
   }
   footer {
       border: 2px solid white;
