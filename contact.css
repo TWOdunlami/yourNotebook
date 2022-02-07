@@ -85,8 +85,8 @@ ul {
   .serviceDisplay {
       margin: 0 -5px;
       margin-top: 40px;
-/*    display: flex;
-      justify-content: space-between;       */
+      display: inside;
+/*      justify-content: space-between;       */
       border: 2px solid blue;
   }
   img {
@@ -99,12 +99,13 @@ ul {
   .model {
       border: 2px solid red;
       overflow: hidden;
-      float: left;
+      float: right;
       width: 60px;
       height: 120px;
-      padding: 0 50px;
+      padding: 0 30px;
       margin-top: 40px;
       margin-left: 9px;
+      margin-right: 128px;
       cursor: pointer;
   }
   .model:hover {
