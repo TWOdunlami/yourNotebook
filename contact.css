@@ -4,15 +4,19 @@
     --txtOR-hilght: black;
     }
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
-* {
+body {
+    font-family: 'Newsreader', serif;
     background-color: var(--card-color);
 }
 .flexCard {
+    box-sizing: border-box;
+    flex-direction: row;
     margin: auto;
     background-color: var(--button-color);
     box-shadow: 20px 20px 50px 10px var(--button-color) inset, 20px 20px 50px 10px var(--button-color);
     width: 30%;
     border-radius: 5px 5px 5px 5px;
+    margin-bottom: 50px;
 }
 h1 {
     font-family: 'Newsreader', serif;
@@ -71,13 +75,49 @@ ul {
       background-color: var(--card-color);
       border-radius: 5px 5px 5px 5px;
   }
-  .modelBx {
-      margin: 0 -5px;
+  hr {
+      display: block;
   }
-  .imgColumn {
+  hr {
+      margin-top: 60px;
+      width: 75%;
+  }
+  .serviceDisplay {
+      margin: 0 -5px;
+      margin-top: 40px;
+    /*  display: flex;
+      justify-content: space-between; */
+      border: 2px solid blue;
+  }
+  .model {
       border: 2px solid red;
-      float: right;
-      width: 50%;
+      overflow: hidden;
+      float: left;
+      width: 60px;
+      height: 120px;
       padding: 0 50px;
-      margin-top: 100px;
+      margin-top: 40px;
+      margin-left: 9px;
+      cursor: pointer;
+  }
+  .model:hover {
+      background-color: lightcoral;
+      color: white;
+  }
+  section {
+    margin: 0 -5px;
+    margin-top: 190px;
+    border: 2px solid blue;
+  }
+  footer {
+      border: 2px solid white;
+      border-top-color:lightcoral;
+      border-bottom-color: lightcoral;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: var(--card-color);
+      color: var(--txtOR-hilght);
+      text-align: center;
   }
