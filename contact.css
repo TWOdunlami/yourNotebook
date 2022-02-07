@@ -85,9 +85,16 @@ ul {
   .serviceDisplay {
       margin: 0 -5px;
       margin-top: 40px;
-    /*  display: flex;
-      justify-content: space-between; */
+/*    display: flex;
+      justify-content: space-between;       */
       border: 2px solid blue;
+  }
+  img {
+      border: 3px solid green;
+      object-fit: fill;
+      width: 48px;
+      height: 50px;
+      margin-bottom: 90px;
   }
   .model {
       border: 2px solid red;
@@ -104,9 +111,10 @@ ul {
       background-color: lightcoral;
       color: white;
   }
-  section {
+  .thankU {
     margin: 0 -5px;
     margin-top: 190px;
+    margin-bottom: 100px;
     border: 2px solid blue;
   }
   footer {
