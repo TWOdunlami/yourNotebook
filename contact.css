@@ -89,7 +89,7 @@ ul {
   .liveInv {
       border: 3px solid green;
       object-fit: fill;
-      width: 33px;
+      width: 73px;
       height: auto;
       margin-bottom: 90px;
   }
@@ -117,8 +117,9 @@ ul {
   .modeltiptext {
       visibility: hidden;
       width: 120px;
-      background-color: red;
-      color: yellow;
+      background-color: var(--button-color);
+      color: var(--txtOR-hilght);
+      text-transform: capitalize;
       text-align: center;
       border-radius: 6px;
       padding: 5px 0;
