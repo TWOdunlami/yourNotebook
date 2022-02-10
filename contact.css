@@ -76,9 +76,6 @@ ul {
       border-radius: 5px 5px 5px 5px;
   }
   hr {
-      display: block;
-  }
-  hr {
       margin-top: 60px;
       width: 75%;
   }
@@ -104,13 +101,35 @@ ul {
       height: 120px;
       padding: 0 30px;
       margin-top: 40px;
-      margin-left: 9px;
-      margin-right: 128px;
+      margin-left: 128px;
+      margin-right: 9px;
       cursor: pointer;
   }
   .model:hover {
-      background-color: lightcoral;
-      color: white;
+      background-color: var(--card-color);
+      color: black;
+  }
+  .imgColumn {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px solid var(--card-color);
+  }
+  .modeltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: red;
+      color: yellow;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -60px;
+  }
+  .imgColumn:hover .modeltiptext {
+      visibility: visible;
   }
   .thankU {
     margin: 0 -5px;
@@ -120,9 +139,10 @@ ul {
   }
   p {
       text-align: center;
+      text-transform: capitalize;
   }
   footer {
-      border: 2px solid white;
+      border: 2px solid var(--card-color);
       border-top-color:lightcoral;
       border-bottom-color: lightcoral;
       position: fixed;
