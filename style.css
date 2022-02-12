@@ -163,47 +163,12 @@ div.quality-section {
     background-color: var(--card-color);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-.qualityPic {   /* open source photos styled in this section are from www.pixabay.com */
-    display: flex;
-    align-items: center;
-    margin: auto;
-    max-width: 180px;
-    max-height: 180px;
-    border-radius: 32px;
-    box-shadow: 0 4px 8px 0 var(--card-color), 0 6px 20px 0 var(--card-color);
-}
 hr.divider {            /* horizontal line. centered without a listed property */
     border: 8px solid var(--card-color);
     max-width: 80%;
     border-radius: 13px;
-}
-.pricing-box {          /*  pricing table  add properties to visually center items */
-    border: 2px solid var(--card-color);
-    width: 20%;
-    margin: auto;
-    margin-left: 75px;
-    margin-right: 75px;
-    align-items: center;
-    flex-direction: row;
-    float: left;
-    position: relative;
-    padding: 0 10px;
-    margin-bottom: 70px;
-    border-radius: 18px;
-    text-align: center;
-    line-height: 3.0;
-}
-.pricing-text h2 {   /* Custom lorem ipsum text. Final Pricing tier styling. */
-    text-transform: uppercase;
-    border: 2px solid var(--card-color);
-    border-radius: 10px;
-    text-decoration: underline overline solid var(--card-color);
-    font-size: 20px;
-    background-color: var(--button-color);
-    box-shadow: 0 4px 8px 0 var(--card-color), 0 6px 20px 0 var(--card-color) inset;
-}
-.pricing-text b {
-    font-size: 22px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 .footer {           /* final sticky footer. */
     margin: auto;
