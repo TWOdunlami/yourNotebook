@@ -71,7 +71,7 @@ div.details-box{
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 var(--button-color), 0 6px 20px 0 var(--button-color);
 }
 .submission {
     text-align: center;
@@ -161,7 +161,7 @@ div.quality-section {
 }
 .quality-section:hover {    /* hoverable sample images from open-source website www.pixabay.com */
     background-color: var(--card-color);
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 var(--card-color);
 }
 hr.divider {            /* horizontal line. centered without a listed property */
     border: 8px solid var(--card-color);
