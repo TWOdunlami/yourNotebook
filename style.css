@@ -218,3 +218,6 @@ hr.divider {            /* horizontal line. centered without a listed property *
     font-family: 'Newsreader', serif;
     font-weight: 600;
 }
+.footerTxt {
+    text-decoration: none;
+}
