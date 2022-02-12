@@ -4,7 +4,7 @@
 --txtOR-hilght: black;
 }
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
-@media only screen and (max-width: 600px) { body {
+@media only screen and (max-width: 2600px) { body {
     margin: 0;
     font-family: 'Newsreader', serif;
 }
