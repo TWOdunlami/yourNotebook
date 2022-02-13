@@ -71,7 +71,8 @@ div.details-box{
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-    box-shadow: 0 4px 8px 0 var(--button-color), 0 6px 20px 0 var(--button-color);
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 var(--card-color), 0 6px 20px 0 var(--card-color);
 }
 .submission {
     text-align: center;
@@ -132,7 +133,7 @@ button {                  /* email input and 'get started' button styling */
     margin-right: 30px;
     float: left;
     border: 3px solid var(--card-color);
-    box-shadow: 5px 10px 20px var(--txtOR-hilght);
+    box-shadow: 5px 10px 20px var(--card-color);
     border-radius: 6px;
 }
 .text {                 /* icon description text, with custom lorem ipsum. */
