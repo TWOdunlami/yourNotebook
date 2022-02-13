@@ -178,12 +178,17 @@ hr.divider {            /* horizontal line. centered without a listed property *
     left: 0;
     bottom: 0;
     width: 100%;
+    color: var(--txtOR-hilght);
     background-color: var(--card-color);
     border-radius: 30px;
     text-align: center;
     font-family: 'Newsreader', serif;
-    font-weight: 600;
+    font-weight: 300;
 }
 .footerTxt {
     text-decoration: none;
+    color: var(--txtOR-hilght);
+}
+.footerTxt:visited {
+    color: var(--txtOR-hilght);
 }
