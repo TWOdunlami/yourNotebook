@@ -185,10 +185,10 @@ hr.divider {            /* horizontal line. centered without a listed property *
     font-family: 'Newsreader', serif;
     font-weight: 300;
 }
-.footerTxt {
-    text-decoration: none;
+.linkTxt {
+    text-decoration: var(--txtOR-hilght) wavy underline;
     color: var(--txtOR-hilght);
 }
-.footerTxt:visited {
+.linkTxt:visited {
     color: var(--txtOR-hilght);
 }
