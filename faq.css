@@ -40,6 +40,9 @@ body, html {
     background-color: linen;
     color: white;
   }
+  section {
+    margin-left: 40px;
+  }
   hr {
       width: 80%;
   }
