@@ -40,3 +40,9 @@ body, html {
     background-color: linen;
     color: white;
   }
+  hr {
+      width: 80%;
+  }
+  h2 {
+      text-align: center;
+  }
