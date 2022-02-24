@@ -54,6 +54,13 @@ ul {
     color: var(--txtOR-hilght);
     border-radius: 40px 40px 40px 40px;
   }
+  summary {
+    font-family: 'Newsreader', serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
   .formBox {
       display: flex;
       line-height: 2.3;
@@ -75,7 +82,8 @@ ul {
       border-radius: 5px 5px 5px 5px;
   }
   hr {
-      margin-top: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
       width: 88%;
   }
 html {
@@ -120,6 +128,7 @@ html {
 
 .button {
   border: none;
+  border-radius: 10px;
   outline: 0;
   display: inline-block;
   padding: 8px;
@@ -140,15 +149,15 @@ html {
     bottom: 0;
     width: 100%;
     color: var(--txtOR-hilght);
-    background-color: var(--card-color);
-    border-radius: 30px;
+    background-color: #C1DFE5;
+    border-radius: 2px;
     text-align: center;
     font-family: 'Newsreader', serif;
     font-weight: 300;
-    padding-top: 5px;
+    padding-top: 25px;
 }
 .linkTxt {
-    text-decoration: var(--txtOR-hilght) wavy underline;
+    text-decoration: var(--txtOR-hilght) none underline;
     color: var(--txtOR-hilght);
 }
 .linkTxt:visited {
