@@ -5,7 +5,7 @@ body, html {
     font-family: 'Newsreader', serif;
     background-image: url("https://clouddevs.com/3dbay/files/preview/680x267/11633023964ral82f0wkm0swoakgsqzkyq9zgtdfq4wu3hd5dwjvn6rcvtsw3svglzyclcmzybacus8yxfgwfmiox0vaayl4jhskcn2n0ngcdl7.png");
 	background-repeat: no-repeat;
-	background-position: 90% 210%;
+	background-position: 90% 250%;
   }
   
   .hero-image {
@@ -63,6 +63,10 @@ body, html {
     text-decoration: none;
     color: black;
     font-weight: 600;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.8;
   }
   .footer {           /* final sticky footer. */
     margin: auto;
