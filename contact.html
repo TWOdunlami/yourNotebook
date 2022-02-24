@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="contact.css">
-  </head>
-  <body>
-    <header id="stickyHeader"> <!-- header -->
-      <div class="landingheader">
-          <h5 href="index.html" class="iconLogo"> <img src="images/iconlogo.png" alt="yourNotebook logo" style="width:18px;height:18px;" />2Way Ink</h5>
-      <div class="headRight">
-          <h5 href="https://sites.google.com/2wayink.com/home/faq">FAQ</h5> <!-- links within landing page. section linked to, update tag name['p'] and include matching href="#features" with id="features" -->
-          <h5 href="mailto:clientSuccess@2wayink.com">Contact US </h5>  
-          <h5 href="https://sites.google.com/2wayink.com/home/about-us">About Us</h5>
-      </div>
-      </div>
-      </header>
-      <hr class="hrDiv">
-  <div class="row">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="contact.css">
+</head>
+<body>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Custom Orders</h1>
+	<p>Welcome, Browse and click on our curated list of services 2Way Ink provides</p>
+    <button><a href="https://www.2wayink.netlify.app">HOME</a></button>
+  </div>
+</div>
+<hr>
+	    <div class="row">
     <div class="column">
       <div class="card">
         <img src="" alt="service item" style="width:100%">
@@ -24,7 +21,7 @@
           <h2>Item 1</h2>
           <p class="title">$8.00</p>
           <p>A5 Soft-Leather Journal<br>80 page count.</p>
-          <p>example@example.com</p>
+          <p><img src="images/payment.png" alt="square logo" title="SQUARE payment link" id="paymentLogo"/><img src="images/secured.png" alt="privacy link" title="privacy link" id="paymentLogo"/></p>
           <a><button class="button">Square $ link</button></a>
         </div>
       </div>
@@ -37,7 +34,7 @@
           <h2>Leather Journal</h2>
           <p class="title">$18.00</p>
           <p>A5 Business Leather Journal<br>80 page count.</p>
-          <p>example@example.com</p>
+          <p><img src="images/payment.png" alt="square logo" title="SQUARE payment link" id="paymentLogo"/><img src="images/secured.png" alt="privacy link" title="privacy link" id="paymentLogo"/></p>
           <a><button class="button">Square $ link</button></a>
         </div>
       </div>
@@ -50,17 +47,49 @@
           <h2>Soft-Leather Journal</h2>
           <p class="title">$18.00</p>
           <p>A5 Soft-Leather Journal<br>80 page count.</p>
-          <p>example@example.com</p>
+          <p><img src="images/payment.png" alt="square logo" title="SQUARE payment link" id="paymentLogo"/><img src="images/secured.png" alt="privacy link" title="privacy link" id="paymentLogo"/></p>
           <a><button class="button">Square $ link</button></a>
         </div>
       </div>
     </div>
   </div>
+  <div class="introTxt">
+  <h2 class="intro">Browse our Services and inventory! <br> Trusted secure payment links for faster processing!<br>
+Browse our diverse list of stationary items for organizing your office tools and Journaling ideas! <br>Engrave your custom message on all types of materials and surfaces. <br>All notebook purchases come with complimentary laser engravements for approved images and lettering.<br>Our dedicated team of email junkies
+will answer your incoming personalization requests and approve them within the hour or...<br> We guarantee free shipping on your order over 2lbs!<br> We keep a trained group of excited team members ready to review your unique laser engraving masterpiece.</h2></div>
   <div class="footer" id="default">
           <a class="linkTxt" href="https://www.2wayink.com">. TWO © 2022 .</a>
           <a class="linkTxt" href="faq.html"> FAQ .</a>
           <a class="linkTxt" href="https://drive.google.com/file/d/1shSPhEGwAiFc87ErAbrDWpZVkzADbtTq/view" target="blank" title="Access Request required."> Privacy .</a>
       </div>
+	  <main class="flexCard">
+      <div class="formBox" id="formContact">
+        <form action="POST" method="POST">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your First and Last name.." minlength="5">
+      
+          <label for="zpcode">Zip Code</label>
+          <input type="text" id="zpcode" name="zipcode" placeholder="ZipCode..">
+      
+          <label for="custom">Type</label>
+          <select id="custom" name="custom">
+            <option value="Select">Select From List Below...</option>
+            <option value="no purchase, sending item for engraving">no purchase made. sending item for engraving</option>
+            <option value="checkout">Checkout</option>
+            <option value="support">Requesting support</option>
+          </select>
+          <br>
+          <br>
+          <label for="file">File Upload</label>
+          <input type="file" id="file" name="file">
+          <hr class="hrDiv">
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      </main>
     <!-- script file for contact us form -->
     <script src="contact.js"></script>
 </body> 
