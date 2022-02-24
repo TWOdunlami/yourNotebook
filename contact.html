@@ -1,69 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>2WayInk Contact Form</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="contact.css">
-</head>
-<body>
-    <nav>
-        <ul class="navSection">
-            <li class="header"><a class="home" href="index.html">Home</a></li>
-        </ul>
-    </nav>
-    <main class="flexCard">
-    <h1>Contact Form</h1>
-    <br>
-    <form action="POST" method="POST">
-        <div class="formBox">
-        <label class="userDemo">Name<input type="text" required></label>
-        <label class="userDemo">Zipcode<input type="number"></label>
-        <label class="userDemo">Subject<input type="text"></label>
-        <label class="userDemo"><input type="file" id="urNotebook" name="personalization"></label>
-        <hr id="formDiv">
-        <label class="userDemo">Message<textarea aria-placeholder="Please provide model number or service type" placeholder="For fast service, Please provide model number and service type..." required style="height:111px;"></textarea></label>
-        <button>submit</button>    
-        </form>
-    </main>
-    <section class="serviceDisplay">
-        <div class="modelBx">
-            <div class="imgColumn"> <span class="modeltiptext">Stationary item</span>
-              <div class="model">
-                <h4>Model 1</h4>
-                <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=340" alt="Some text" class="liveInv" />
-              </div>
-            </div>
-            <div class="imgColumn">  <span class="modeltiptext">Surface Engraving</span>
-                <div class="model">
-                  <h4>Model 2</h4>
-                  <img src="https://images.pexels.com/photos/4082558/pexels-photo-4082558.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=39" alt="Some text" class="liveInv" />
-                </div>
-              </div>
-              <div class="imgColumn">  <span class="modeltiptext">Notebook Engraving</span>
-                <div class="model">
-                  <h4>Model 3</h4>
-                  <img src="https://images.pexels.com/photos/4226787/pexels-photo-4226787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=80&w=140" alt="Some text" class="liveInv" />
-                </div>
-              </div>
-              <div class="imgColumn">  <span class="modeltiptext">Stationary Engraving</span>
-                <div class="model">
-                  <h4>Model 4</h4>
-                  <img src="https://images.unsplash.com/photo-1634814407007-97b9ef887101?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=45&q=80" alt="Some text" class="liveInv" />
-                </div>
-              </div>
-              <div class="imgColumn">  <span class="modeltiptext">Custom Stationary item</span>
-                <div class="model">
-                  <h4>Model 5</h4>
-                  <img src="https://images.pexels.com/photos/2693212/pexels-photo-2693212.png?auto=compress&cs=tinysrgb&dpr=2&h=20&w=50" alt="Some text" class="liveInv" />
-                </div>
-              </div>
-            </section>
-            <section class="thankU">
-                <p>thank you for taking the time to browse our services</p>
-            </section>
-    <footer class="bottom">
-        <a _target="_blank" title="take our survey!">2Way Ink</a>
-    </footer>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="contact.css">
+  </head>
+  <body>
+  
+   <nav>
+          <ul class="navSection">
+              <li class="header"><a class="home" href="index.html">Home</a></li>
+          </ul>
+      </nav>
+      <main class="flexCard">
+      <h1>Contact Form</h1>
+      <br>
+      <form action="POST" method="POST">
+          <div class="formBox">
+          <label class="userDemo">Name<input type="text" required></label>
+          <label class="userDemo">Zipcode<input type="number"></label>
+          <label class="userDemo">Subject<input type="text"></label>
+          <label class="userDemo"><input type="file" id="urNotebook" name="personalization"></label>
+          <hr id="formDiv">
+          <label class="userDemo">Message<textarea aria-placeholder="Please provide model number or service type" placeholder="For fast service, Please provide model number and service type..." required style="height:111px;"></textarea></label>
+          <button>submit</button>    
+          </form>
+      </main>
+  
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="/w3images/team1.jpg" alt="service item" style="width:100%">
+        <div class="container">
+          <h2>Item 1</h2>
+          <p class="title">CEO & Founder</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+          <p><button class="button">Square $ link</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="/w3images/team2.jpg" alt="inventory item" style="width:100%">
+        <div class="container">
+          <h2>Item 2</h2>
+          <p class="title">Art Director</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+          <p><button class="button">Square $ link</button></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <img src="/w3images/team3.jpg" alt="inventory item" style="width:100%">
+        <div class="container">
+          <h2>Item 3</h2>
+          <p class="title">Designer</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+          <p><button class="button">Square $ link</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer" id="default">
+          <a class="linkTxt" href="https://www.2wayink.com">TWO © 2022 </a>
+          <a class="linkTxt" href="faq.html">| FAQ</a>
+          <a class="linkTxt" href="https://drive.google.com/file/d/1shSPhEGwAiFc87ErAbrDWpZVkzADbtTq/view" target="blank" title="Access Request required.">| Privacy</a>
+      </div>
     <!-- script file for contact us form -->
     <script src="contact.js"></script>
 </body> 
