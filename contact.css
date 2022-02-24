@@ -17,7 +17,7 @@ body, html {
   box-sizing: inherit;
 }
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1644828663344-f4a8f2cdc316?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=770&q=80");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1495839760557-d150d64b4469?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     height: 30%;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,6 +33,7 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
     font-weight: 100;
+    text-decoration: none;
   }
   
   .hero-text button {
@@ -49,7 +50,7 @@ body, html {
   }
   
   .hero-text button:hover {
-    background-color: linen;
+    background-color: #C1DFE5;
     color: white;
   }
   .hero-text p {
