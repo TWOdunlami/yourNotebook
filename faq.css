@@ -26,6 +26,7 @@ body, html {
   
   .hero-text button {
     border: none;
+    border-radius: 20px;
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
@@ -41,11 +42,42 @@ body, html {
     color: white;
   }
   section {
-    margin-left: 40px;
+    margin-left: 60px;
+    padding-bottom: 50px;
   }
   hr {
-      width: 80%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 80%;
   }
   h2 {
-      text-align: center;
+      margin-top: 60px;
   }
+  a {
+    line-height: 2.5;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .footer {           /* final sticky footer. */
+    margin: auto;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: var(--txtOR-hilght);
+    background-color: #c9e8ee;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+    font-weight: 300;
+    padding-top: 5px;
+}
+.linkTxt {
+    text-decoration: black none underline;
+    color: black;
+}
+.linkTxt:visited {
+    color: black;
+}
