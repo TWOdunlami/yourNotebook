@@ -42,7 +42,9 @@ body, html {
     color: white;
   }
   section {
+    margin-top: 80px;
     margin-left: 60px;
+    margin-right: 160px;
     padding-bottom: 50px;
   }
   hr {
