@@ -3,6 +3,9 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Newsreader', serif;
+    background-image: url("https://clouddevs.com/3dbay/files/preview/680x267/11633023964ral82f0wkm0swoakgsqzkyq9zgtdfq4wu3hd5dwjvn6rcvtsw3svglzyclcmzybacus8yxfgwfmiox0vaayl4jhskcn2n0ngcdl7.png");
+	background-repeat: no-repeat;
+	background-position: 90% 210%;
   }
   
   .hero-image {
