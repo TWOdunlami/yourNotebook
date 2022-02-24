@@ -61,31 +61,40 @@ ul {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #C1DFE5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
   .formBox {
-      display: flex;
-      line-height: 2.3;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 20px 20px 50px 10px var(--button-color) inset;
-      border-radius: 5px 5px 5px 5px;
-      background-color: var(--button-color);
-  }
-  .userDemo {
-      border: 0px solid var(--button-color);
-      box-shadow: 20px 20px 50px 10px var(--button-color) inset;
-      border-radius: 5px 5px 5px 5px;
-  }
-  input[type="text"], input[type="number"], textarea {
-      border: 1px solid var(--button-color);
-      background-color: var(--card-color);
-      border-radius: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: #C1DFE5;
+    padding: 20px;
   }
   hr {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      width: 88%;
-  }
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 88%;
+    }
 html {
   box-sizing: border-box;
 }

@@ -11,22 +11,36 @@
               <li class="header"><a class="home" href="index.html">Home</a></li>
           </ul>
       </nav>
-      <details><summary>expand here to send a message to our 2Way Ink Crew!"</summary>
       <main class="flexCard">
       <h1>Contact Form</h1>
       <br>
-      <form action="POST" method="POST">
-          <div class="formBox">
-          <label class="userDemo">Name<input type="text" required></label>
-          <label class="userDemo">Zipcode<input type="number"></label>
-          <label class="userDemo">Subject<input type="text"></label>
-          <label class="userDemo"><input type="file" id="urNotebook" name="personalization"></label>
-          <hr id="formDiv">
-          <label class="userDemo">Message<textarea aria-placeholder="Please provide model number or service type" placeholder="For fast service, Please provide model number and service type..." required style="height:111px;"></textarea></label>
-          <button>submit</button>    
-          </form>
+      <div class="formBox">
+        <form action="POST" method="POST">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your First and Last name.." minlength="5">
+      
+          <label for="zpcode">Zip Code</label>
+          <input type="text" id="zpcode" name="zipcode" placeholder="ZipCode..">
+      
+          <label for="custom">Type</label>
+          <select id="custom" name="custom">
+            <option value="Select">Select From List Below...</option>
+            <option value="no purchase, sending item for engraving">no purchase made. sending item for engraving</option>
+            <option value="checkout">Checkout</option>
+            <option value="support">Requesting support</option>
+          </select>
+          <br>
+          <br>
+          <label for="file">File Upload</label>
+          <input type="file" id="file" name="file">
+          <hr>
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
       </main>
-      </details>
   
   <div class="row">
     <div class="column">
