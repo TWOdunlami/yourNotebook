@@ -5,43 +5,17 @@
   <link rel="stylesheet" type="text/css" media="screen" href="contact.css">
   </head>
   <body>
-  
-   <nav>
-          <ul class="navSection">
-              <li class="header"><a class="home" href="index.html">Home</a></li>
-          </ul>
-      </nav>
-      <main class="flexCard">
-      <h1>Contact Form</h1>
-      <br>
-      <div class="formBox">
-        <form action="POST" method="POST">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your First and Last name.." minlength="5">
-      
-          <label for="zpcode">Zip Code</label>
-          <input type="text" id="zpcode" name="zipcode" placeholder="ZipCode..">
-      
-          <label for="custom">Type</label>
-          <select id="custom" name="custom">
-            <option value="Select">Select From List Below...</option>
-            <option value="no purchase, sending item for engraving">no purchase made. sending item for engraving</option>
-            <option value="checkout">Checkout</option>
-            <option value="support">Requesting support</option>
-          </select>
-          <br>
-          <br>
-          <label for="file">File Upload</label>
-          <input type="file" id="file" name="file">
-          <hr>
-          <label for="subject">Message</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-        </form>
+    <header id="stickyHeader"> <!-- header -->
+      <div class="landingheader">
+          <h5 href="index.html" class="iconLogo"> <img src="images/iconlogo.png" alt="yourNotebook logo" style="width:18px;height:18px;" />2Way Ink</h5>
+      <div class="headRight">
+          <h5 href="https://sites.google.com/2wayink.com/home/faq">FAQ</h5> <!-- links within landing page. section linked to, update tag name['p'] and include matching href="#features" with id="features" -->
+          <h5 href="mailto:clientSuccess@2wayink.com">Contact US </h5>  
+          <h5 href="https://sites.google.com/2wayink.com/home/about-us">About Us</h5>
       </div>
-      </main>
-  
+      </div>
+      </header>
+      <hr class="hrDiv">
   <div class="row">
     <div class="column">
       <div class="card">
@@ -51,7 +25,7 @@
           <p class="title">$8.00</p>
           <p>A5 Soft-Leather Journal<br>80 page count.</p>
           <p>example@example.com</p>
-          <p><button class="button">Square $ link</button></p>
+          <a><button class="button">Square $ link</button></a>
         </div>
       </div>
     </div>
@@ -60,11 +34,11 @@
       <div class="card">
         <img src="" alt="inventory item" style="width:100%">
         <div class="container">
-          <h2>Custom Engravement</h2>
+          <h2>Leather Journal</h2>
           <p class="title">$18.00</p>
           <p>A5 Business Leather Journal<br>80 page count.</p>
           <p>example@example.com</p>
-          <p><button class="button">Square $ link</button></p>
+          <a><button class="button">Square $ link</button></a>
         </div>
       </div>
     </div>
@@ -73,11 +47,11 @@
       <div class="card">
         <img src="" alt="inventory item" style="width:100%">
         <div class="container">
-          <h2>Item 3</h2>
+          <h2>Soft-Leather Journal</h2>
           <p class="title">$18.00</p>
           <p>A5 Soft-Leather Journal<br>80 page count.</p>
           <p>example@example.com</p>
-          <p><button class="button">Square $ link</button></p>
+          <a><button class="button">Square $ link</button></a>
         </div>
       </div>
     </div>
