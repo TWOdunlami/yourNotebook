@@ -9,9 +9,6 @@ body, html {
     margin: 0;
     font-family: 'Newsreader', serif;
 	box-sizing: border-box;
-	background-image: url("https://clouddevs.com/3dbay/files/preview/900x819/11623435091gxvfueo0mxznrnn8wxistwdnhqgplcigdafucuwe11wdxzxtwgmir82h61xqxguahuzvd6v4f1hauagcfwtr3ktxkweyzj2oaqjc.png");
-	background-repeat: no-repeat;
-	background-position: -5% 790%;
   }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -62,7 +59,7 @@ body, html {
 	  margin-left: 3px;
   }
  .introTxt {
-	  padding-top: 10px;
+	  padding-top: 1px;
 	  display: flex;
 	  flex-direction: column;
   }
@@ -103,11 +100,11 @@ input[type=submit]:hover {
 
 .formBox {
   border-radius: 5px;
-  background-color: #C1DFE5;
+  background-color: white;
   padding: 20px;
   margin-left: 880px;
   margin-right: 60px;
-  margin-bottom: 90px;
+  margin-bottom: 10px;
 }
 hr {
       margin-top: 20px;
@@ -128,7 +125,6 @@ hr {
     display: block;
   }
 }
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -143,7 +139,12 @@ hr {
   clear: both;
   display: table;
 }
-
+h1 {
+  font-weight: 300;
+}
+h2 {
+  font-weight: 500;
+}
 .title {
   color: grey;
 }
@@ -188,4 +189,48 @@ hr {
 }
 .linkTxt:visited {
     color: var(--txtOR-hilght);
+}
+
+/*
+responsive properties */
+@media screen and (max-width: 800px){
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Newsreader', serif;
+    box-sizing: border-box;
+    }
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-bottom: 2px solid black;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .formBox {
+      border-radius: 5px;
+      background-color: #C1DFE5;
+      padding: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 90px;
+    }
 }
