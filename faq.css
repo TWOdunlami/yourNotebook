@@ -4,7 +4,6 @@ body, html {
     margin: 0;
     font-family: 'Newsreader', serif;
   }
-  
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1495839760557-d150d64b4469?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     height: 30%;
@@ -60,6 +59,10 @@ body, html {
     text-decoration: none;
     color: black;
     font-weight: 600;
+  }
+  a:hover {
+    color: black;
+    background: #c9e8ee;
   }
   p {
     font-size: 18px;
