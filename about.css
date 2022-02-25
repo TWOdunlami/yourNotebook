@@ -39,7 +39,11 @@ body, html {
   background-color: #555;
   color: white;
 }
-
+hr {
+  width: 75%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 details > summary {
   padding: 4px;
   width: 75%;
