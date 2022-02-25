@@ -39,3 +39,20 @@ body, html {
   background-color: #555;
   color: white;
 }
+
+details > summary {
+  padding: 4px;
+  width: 75%;
+  background-color: white;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: white;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  line-height: 1.5;
+}
