@@ -14,7 +14,7 @@ body {
 }
 .landingheader {
     overflow: hidden;
-    background-color: var(--card-color);
+    background-color: #f2f2f2;
     padding: 32px 10px;
     margin: 10px;
     border-radius: 30px;
