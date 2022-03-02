@@ -183,7 +183,7 @@ div.quality-section {
     padding-top: 5px;
 }
 .linkTxt {
-    text-decoration: var(--txtOR-hilght) wavy underline;
+    text-decoration: var(--txtOR-hilght) none underline;
     color: var(--txtOR-hilght);
 }
 .linkTxt:visited {
