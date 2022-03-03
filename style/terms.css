@@ -48,6 +48,9 @@ body, html {
   main {
     line-height: 1.5;
   }
+  a {
+    text-decoration: none;
+  }
   .tabList {
     list-style-type: '-';
     line-height: 1.8;
