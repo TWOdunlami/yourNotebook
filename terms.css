@@ -43,6 +43,14 @@ body, html {
   .bodyTxt {
     text-indent: 2em;
     line-height: 1.5;
+    word-wrap: break-word;
+  }
+  main {
+    line-height: 1.5;
+  }
+  .tabList {
+    list-style-type: '-';
+    line-height: 1.8;
   }
   .footer {           /* final sticky footer. */
     margin: auto;
@@ -60,7 +68,7 @@ body, html {
     padding-top: 5px;
 }
 .linkTxt {
-    text-decoration: black none underline;
+    text-decoration: black none;
     color: black;
 }
 .linkTxt:visited {
