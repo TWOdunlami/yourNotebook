@@ -40,3 +40,29 @@ body, html {
     background-color: linen;
     color: white;
   }
+  .bodyTxt {
+    text-indent: 2em;
+    line-height: 1.5;
+  }
+  .footer {           /* final sticky footer. */
+    margin: auto;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: var(--txtOR-hilght);
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+    font-weight: 300;
+    padding-top: 5px;
+}
+.linkTxt {
+    text-decoration: black none underline;
+    color: black;
+}
+.linkTxt:visited {
+    color: black;
+}
