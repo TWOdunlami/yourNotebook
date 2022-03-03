@@ -70,11 +70,12 @@ details > p {
 }
 .equipCrew {
   padding-top: 10px; 
-  width: 1em;  
+  width: 10em;  
   text-align: center; 
-  display: block; 
+  display: block;
   margin-left: auto; 
   margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .equipTxt {
   padding-top: 10px;
@@ -83,7 +84,7 @@ details > p {
   margin-left: auto;
   margin-right: auto;
   line-height: 1.3;
-  text-align: center;;
+  text-align: center;
 }
 .closing {
   font-size: 17px;
@@ -98,10 +99,10 @@ details > p {
 }
 .List {
   text-align: justify;
-  line-height: 1.3;
+  line-height: 1.9;
   word-wrap: break-word;
   display: block;
-  width: 75%;
+  width: 35%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 90px;
