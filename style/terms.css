@@ -45,6 +45,9 @@ body, html {
     line-height: 1.5;
     word-wrap: break-word;
   }
+  nav {
+    padding-left: 33px;
+  }
   main {
     line-height: 1.5;
   }
