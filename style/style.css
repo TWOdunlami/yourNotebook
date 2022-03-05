@@ -11,6 +11,7 @@
 }
 body {
     background-color: #f2f2f2;
+    font-family: 'Newsreader', serif;
 }
 .landingheader {
     overflow: hidden;
@@ -148,7 +149,7 @@ button {                  /* email input and 'get started' button styling */
     padding: 10px;
     padding-left: 10%;
     margin-left: 90px;
-    text-transform: capitalize;
+    text-transform: none;
     line-height: 1.5;
 }
 div.quality-section {
