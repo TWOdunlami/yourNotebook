@@ -192,3 +192,6 @@ div.quality-section {
 .linkTxt:visited {
     color: var(--txtOR-hilght);
 }
+hr {
+    max-width: 33%;
+}
