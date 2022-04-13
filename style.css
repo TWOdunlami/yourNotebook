@@ -75,7 +75,7 @@ div.details-box{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 60%;
     border-radius: 6px;
     box-shadow: 0 4px 8px 0 var(--card-color), 0 6px 20px 0 var(--card-color);
 }
