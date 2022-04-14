@@ -62,11 +62,12 @@ details > p {
 }
 .equip {
   padding-top: 10px;
-  width: 20%;
+  width: 30%;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 6%;
 }
 .equipCrew {
   padding-top: 1px; 
