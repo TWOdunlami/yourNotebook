@@ -170,6 +170,9 @@ div.quality-section {
     background-color: var(--card-color);
     box-shadow: 0 8px 16px 0 var(--card-color);
 }
+.spacing {
+    padding-top: 38px;
+}
 .footer {           /* final sticky footer. */
     margin: auto;
     justify-content: center;
